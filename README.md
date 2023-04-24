@@ -23,8 +23,7 @@ Use `mkdir` to create a new folder. `cd` into the empty folder.
 ## Part 2 - Creating the Server
 1. Test that the setup was correct by adding a console.log to server.js. run `npm run start` . Change the message and save to see the update.
 2. Node uses require. Start by requiring ‘express’ in our file  
-    ```const express = require('express');
-    ```
+    `const express = require('express');`
 3. Calling express as a function creates the express application
     
     ```const app = express(); ```
